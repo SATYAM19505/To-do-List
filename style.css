@@ -1,0 +1,55 @@
+*{
+  background-color: rgb(198, 187, 205);
+}
+h1{
+  margin-left: 1rem;
+  font-family: "Roboto Slab", serif;
+  font-size: 50px;
+}
+input{
+  height: 2rem;
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 3px;
+  box-shadow: 10px 5px 5px rgb(77, 73, 73);
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 10px;
+}
+input:hover{
+  height: 2.5rem;
+}
+.btn{
+  height: 2.3rem;
+  width: 125px;
+  margin-left: 1rem;
+  border-radius: 4px;
+  padding: 5px 15px;
+  box-shadow: 5px 5px 5px rgb(55, 62, 55);
+  font-size: 20px;
+  font-weight: 500;
+}
+.btn:hover{
+  background-color: rgb(63, 216, 63);
+}
+ul{
+  display: flex;
+  flex-direction: column;
+}
+ul li{
+  line-height: 3rem;
+  font-size: 30px;
+}
+.delbtn{
+  height: 2.3rem;
+  width: 125px;
+  margin-left: 1rem;
+  border-radius: 4px;
+  padding: 5px 15px;
+  box-shadow: 5px 1px 5px rgb(55, 62, 55);
+  font-size: 20px;
+  font-weight: 500;
+}
+.delbtn:hover{
+  background-color: rgb(237, 90, 90);
+}
